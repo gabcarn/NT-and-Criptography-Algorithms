@@ -15,9 +15,9 @@ I'm going to use C++ for the implementations because:
 
 Sources
 -------
-* _Algorithms_, by Sanjoy Daguspta, Christos Papadimitriou and Umesh Vazirani;
-* _A Course in Number Theory and Criptography_, by Neal Koblitz;
-*  _Primes and Programming_, by Peter Giblin.
+* __Algorithms__, by _Sanjoy Daguspta_, _Christos_ _Papadimitriou_ and _Umesh Vazirani_
+* __A Course in Number Theory and Criptography__, by _Neal Koblitz_
+*  __Primes and Programming__, by _Peter Giblin_
 
 DISCLAIMER
 ----------
