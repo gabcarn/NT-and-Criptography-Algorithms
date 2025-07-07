@@ -20,3 +20,40 @@ int modularPow(int a, unsigned int exp, int mod) {
 	else return a*z%mod;
 }
 
+int intSqrt(int n) {
+	if (n==1) return 1;
+	
+	int c = n;
+	
+	while (c*c>n) {
+		c = (c+n/c)/2;
+	}
+	
+	return c;
+}
+
+bool ingenuousPrimeVerifier(int n) {
+	// Works, but it's slow.
+	if (n==1) return false;
+	
+	int squareRoot = intSqrt(n);
+	
+	while(squareRoot) {
+		if (n%squareRoot == 0 && squareRoot != 1) return true;
+		else squareRoot--;
+	}
+	
+	return false;
+} 
+
+bool wilsonPrimeVerifier(int n) {
+	
+	
+	
+}
+
+bool randomPrimeVerifier(int n) {
+	
+	
+	
+}
